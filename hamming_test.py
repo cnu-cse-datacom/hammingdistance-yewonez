@@ -5,7 +5,7 @@ from hamming_practice import hamming
 
 df = pd.read_csv('sample.csv',names=['word','bin'])
 
-count = 1
+count =0 
 #min = len(df.iloc[0,1])
 min = 10000000
 for i in range(0,len(df)):
